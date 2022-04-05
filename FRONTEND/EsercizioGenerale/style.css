@@ -35,17 +35,20 @@ footer {
 
 .sub-title {
     font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 ol {
     font-family: 'Times New Roman', Times, serif;
     color: #fafafa;
     list-style-type: upper-roman;
+    justify-content: center;
 }
 
 ol li a {
     text-decoration: none;
     color: #fafafa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 ol li a:hover {
@@ -58,7 +61,7 @@ ol li a:hover {
     border: none;
     border-radius: 50%;
     position: fixed;
-    right: 0;
+    right: 10px;
     bottom: 0;
     z-index: 999;
 }
