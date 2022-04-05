@@ -7,22 +7,18 @@ body {
 }
 
 .container {
-    width: 100%;
-    align-items: center;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
 }
 
 .quadrato {
-    width: 25%;
     height: 300px;
+    flex: 1 0 12em;
     background-color: #fafafa;
     border: 5px solid #333;
-    float: left;
-    text-align: center;
-    margin: 15px;
-}
-
-.quadrato p {
-    margin-top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
