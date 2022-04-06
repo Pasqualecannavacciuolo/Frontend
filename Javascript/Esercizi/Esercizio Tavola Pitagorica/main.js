@@ -18,4 +18,5 @@ function generateTable() {
         }
     }
     myTableDiv.appendChild(table);
+    document.getElementById("btnId").style.display = "none";
 }
