@@ -24,6 +24,7 @@ function checkOccurencies() {
 
 cont = checkOccurencies();
 
+// Cambia in uno switch
 if (cont == 0) {
     console.log("Nessun risultato");
 } else if (cont == 2) {
