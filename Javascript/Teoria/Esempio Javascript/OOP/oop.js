@@ -1,4 +1,4 @@
-export default class Logger {
+export default class Logger extends Object {
     name = new String();
     data = new Date();
 
@@ -14,6 +14,14 @@ export default class Logger {
         this.name = name;
         this.data = data;
     }
+
+    // Getter & Setter
+    getData() { return this.data }
+    setData(data) { this.data = data }
+
+    getName() { return this.name }
+    setName(name) { this.name = name }
+
 
     setup(...options) {
         [...options].forEach(o => {
@@ -49,3 +57,7 @@ export default class Logger {
      */
     error(message) { console.error(message) }
 }
+
+const L = new Logger();
+L.data = new Date('2022', '04', '06');
+L.info(L.data.getDate);
