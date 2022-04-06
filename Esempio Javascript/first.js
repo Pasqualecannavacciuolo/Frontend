@@ -12,16 +12,13 @@ alert("Secondo alert");*/
 test("PRIMO", "SECONDO");*/
 
 // Funzione che converte un numero da BINARIO => DECIMALE
-function conversion(n) {
-    let decimal = parseInt(n, 2);
+function conversion() {
+    let binary = prompt("Inserire numero binario: ");
+    let decimal = parseInt(binary, 2);
     document.write("<p>");
     document.write(decimal);
     document.write("</p>");
 }
-
-conversion("00010101");
-conversion("11001010");
-conversion("10010110");
 
 // Javascript consente di creare un'array misto
 let array = [1, 2, "Ciao", 4, 5];
