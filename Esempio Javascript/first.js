@@ -49,3 +49,10 @@ function checkMaggiorenne() {
     let statuss = anni >= 18 ? "Maggiorenne" : "Minorenne";
     console.log(statuss);
 }
+
+//Function return value
+function mul(a, b) {
+    let m = a * b;
+    console.log(m);
+    return m;
+}
