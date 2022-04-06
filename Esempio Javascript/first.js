@@ -15,9 +15,7 @@ test("PRIMO", "SECONDO");*/
 function conversion() {
     let binary = prompt("Inserire numero binario: ");
     let decimal = parseInt(binary, 2);
-    document.write("<p>");
-    document.write(decimal);
-    document.write("</p>");
+    console.log(binary + " convertito in decimale => " + decimal);
 }
 
 // Javascript consente di creare un'array misto
