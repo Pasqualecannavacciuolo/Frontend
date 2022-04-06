@@ -13,7 +13,7 @@ test("PRIMO", "SECONDO");*/
 
 // Funzione che converte un numero da BINARIO => DECIMALE
 function conversion(n) {
-    var decimal = parseInt(n, 2);
+    let decimal = parseInt(n, 2);
     document.write("<p>");
     document.write(decimal);
     document.write("</p>");
