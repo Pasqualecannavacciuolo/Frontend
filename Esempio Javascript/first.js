@@ -31,9 +31,6 @@ let matrix = [
 matrix.push(1);
 console.log(matrix);
 
-// Input da tastiera mediante un'alert
-let nome = prompt("Mi chiamo")
-console.log("Nome: " + nome)
 
 function checkAnno() {
     let anno = prompt("Inserire anno: ");
