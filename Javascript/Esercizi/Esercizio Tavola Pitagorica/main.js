@@ -2,7 +2,7 @@ function generateTable() {
     let myTableDiv = document.getElementById("myDynamicTable");
 
     let table = document.createElement('TABLE');
-    table.border = '1';
+    //table.border = '1';
 
     let tableBody = document.createElement('TBODY');
     table.appendChild(tableBody);
@@ -12,7 +12,7 @@ function generateTable() {
         tableBody.appendChild(tr);
         for (let j = 1; j <= 10; j++) {
             let td = document.createElement('TD');
-            td.width = '25';
+            //td.width = '25';
             td.appendChild(document.createTextNode(i * j));
             tr.appendChild(td);
         }
