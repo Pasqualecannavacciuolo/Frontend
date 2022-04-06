@@ -44,6 +44,8 @@ function checkAnno() {
 }
 
 // Operatore TERNARIO
-let anni = prompt("Inserire anni: ")
-let statuss = anni >= 18 ? "Maggiorenne" : "Minorenne";
-console.log(statuss);
+function checkMaggiorenne() {
+    let anni = prompt("Inserire anni: ")
+    let statuss = anni >= 18 ? "Maggiorenne" : "Minorenne";
+    console.log(statuss);
+}
