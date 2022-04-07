@@ -11,3 +11,9 @@ let fn = function() {}
 (function() {
     alert('Ciao mondo');
 }());
+
+// For every element do something in the function
+let array = [2, 7, 9, 3, 33, 54];
+array.map(function(e) {
+    console.log(e);
+});
