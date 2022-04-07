@@ -34,3 +34,7 @@ let fn_a = () => {}
 array.forEach((e, _index) => {
     console.log(e);
 });
+
+const test = (param) => {
+    // Do something
+}
