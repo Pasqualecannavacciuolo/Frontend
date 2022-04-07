@@ -43,4 +43,6 @@ const ajax = () => {
     call.open("GET", "https://jsonplaceholder.typicode.com/posts", true);
 
     call.send(null);
+    // Make the button invisible after we print the result
+    document.getElementById("generate").style.display = "none";
 }

@@ -3,12 +3,41 @@ body {
     font-family: "DM Sans", sans-serif;
 }
 
+
+/* BUTTON STYLE */
+
+.generate {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 200px;
+    height: 100px;
+    border: none;
+    background-color: #6658d3;
+    color: #f1f3fb;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.generate:hover {
+    background-color: #463c92;
+}
+
+
+/* GENERAL DIV STYLE */
+
 div {
     background-color: #f1f3fb;
     padding: 50px;
     margin: 50px;
     border-radius: 10px;
 }
+
+
+/* DATA FROM JSON */
 
 .userId {
     font-size: 24px;
