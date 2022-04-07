@@ -14,6 +14,12 @@ let fn = function() {}
 
 // For every element do something in the function
 let array = [2, 7, 9, 3, 33, 54];
+
 array.map(function(e) {
+    console.log(e);
+});
+
+// Another implementation
+array.forEach(function(e, _index) {
     console.log(e);
 });
