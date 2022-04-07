@@ -4,3 +4,10 @@ const cookie = () => {
 }
 
 cookie();
+
+const localStorage = () => {
+    window.localStorage.setItem("Username", "Pasquale");
+    alert(window.localStorage.getItem("Username"));
+}
+
+localStorage();
