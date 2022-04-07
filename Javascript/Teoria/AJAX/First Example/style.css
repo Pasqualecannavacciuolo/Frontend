@@ -7,4 +7,24 @@ div {
     background-color: #f1f3fb;
     padding: 50px;
     margin: 50px;
+    border-radius: 10px;
+}
+
+.userId {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Id,
+.title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.title {
+    font-style: italic;
+}
+
+.body {
+    color: #333;
 }
