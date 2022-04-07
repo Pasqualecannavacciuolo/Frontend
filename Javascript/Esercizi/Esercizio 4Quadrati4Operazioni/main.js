@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let n1, n2, n3, n4;
 
+    // Initializing the variables
     const init = () => {
         n1 = document.querySelector('.n1').innerHTML = generateNumber();
         n2 = document.querySelector('.n2').innerHTML = generateNumber();
