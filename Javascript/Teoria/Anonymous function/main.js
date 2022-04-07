@@ -23,3 +23,14 @@ array.map(function(e) {
 array.forEach(function(e, _index) {
     console.log(e);
 });
+
+// Arrow function
+let fn_a = () => {}
+
+(_param) => {
+    alert('Ciao mondo');
+};
+
+array.forEach((e, _index) => {
+    console.log(e);
+});
