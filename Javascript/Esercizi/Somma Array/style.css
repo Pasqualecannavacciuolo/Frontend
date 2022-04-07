@@ -27,4 +27,5 @@ h4 {
     display: flex;
     justify-content: center;
     padding: 50px;
+    word-spacing: 5px;
 }
