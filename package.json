@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "tsc": "tsc -t es5 Typescript/Teoria/LibraryImplementation/main.ts"
     },
     "repository": {
         "type": "git",
