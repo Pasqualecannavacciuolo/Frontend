@@ -17,6 +17,7 @@
         "url": "https://github.com/Pasqualecannavacciuolo/Frontend/issues"
     },
     "homepage": "https://github.com/Pasqualecannavacciuolo/Frontend#readme",
-    "dependencies": {},
-    "devDependencies": {}
+    "dependencies": {
+        "lodash": "^4.17.21"
+    }
 }
