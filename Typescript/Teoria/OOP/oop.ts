@@ -39,5 +39,19 @@ class IRunnerImp extends IRunner {
     set() {
         throw new Error("Method not implemented.");
     }
-    
 }
+
+interface IPrinterOut<U, V, T, S extends IRunnable> {
+    print(param: U, param1: V): void;
+    start(param: U, param1?: V, param2?: T): S;
+}
+
+class PrinterOut implements IPrinterOut<Object,{},number,IRunnable> {
+    print(param: Object, param1: {}): void {
+        throw new Error("Method not implemented.");
+    }
+    start(param: Object, param1?: {}, param2?: number): IRunnable {
+        throw new Error("Method not implemented.");
+    }
+
+} 
