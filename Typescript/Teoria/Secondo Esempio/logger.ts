@@ -5,6 +5,7 @@ enum LEVEL{
     ERROR
 }
 
+// Defining Logger class
 class Logger {
     private name: string;
     private level: LEVEL; // Enumerations
