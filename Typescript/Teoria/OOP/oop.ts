@@ -53,5 +53,6 @@ class PrinterOut implements IPrinterOut<Object,{},number,IRunnable> {
     start(param: Object, param1?: {}, param2?: number): IRunnable {
         throw new Error("Method not implemented.");
     }
-
 } 
+
+type Obj = IUser; // E' un'alias
