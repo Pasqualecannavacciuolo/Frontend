@@ -1,16 +1,16 @@
-interface IRecords {
+export interface IRecords {
     id: string;
     name: string;
     age?: number;
     description: string;
 }
 
-interface IRecordsOperation<Z> {
-    loadRecord(): Z;
+export interface IRecordsOperation<Z> {
+    loadRecord(param: Z): Z | null;
     printData<Z>(): void;
 }
 
-class RecordsImpl implements IRecordsOperation<IRecords> {
+export abstract class RecordsImpl implements IRecordsOperation<IRecords> {
     
     record: IRecords;
     constructor({ id, name, age, description }: IRecords) {
@@ -21,11 +21,15 @@ class RecordsImpl implements IRecordsOperation<IRecords> {
     }
     
     printData<IRecords>(): void {
-        throw new Error("Method not implemented.");
+        this.record = this.loadRecord(null);
     }
 
-    loadRecord(): IRecords {
-        throw new Error("Method not implemented.");
+    loadRecord(record:IRecords): IRecords | null{
+        record.id = "1";
+        record.name = "Beat it";
+        record.age = 12;
+        record.description = "Album di Michael Jackson";
+        return record;
     }
 
 }
