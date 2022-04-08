@@ -6,8 +6,8 @@ enum LEVEL{
 }
 
 class Logger {
-    name: string;
-    level: LEVEL; // Enumerations
+    private name: string;
+    private level: LEVEL; // Enumerations
 
     // Constructor
     constructor(name: string, level: LEVEL) {
