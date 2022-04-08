@@ -56,3 +56,5 @@ class PrinterOut implements IPrinterOut<Object,{},number,IRunnable> {
 } 
 
 type Obj = IUser; // E' un'alias
+
+declare const globalVar;
