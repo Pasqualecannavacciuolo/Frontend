@@ -16,11 +16,11 @@ class Logger {
     }
 
     // Getter methods
-    getName(): string {
+    public getName(): string {
         return this.name;
     }
 
-    getLevel(): LEVEL {
+    public getLevel(): LEVEL {
         return this.level;
     }
 
