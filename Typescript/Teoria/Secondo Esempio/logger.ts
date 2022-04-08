@@ -14,4 +14,23 @@ class Logger {
         this.name = name;
         this.level = level;
     }
+
+    // Getter methods
+    getName(): string {
+        return this.name;
+    }
+
+    getLevel(): LEVEL {
+        return this.level;
+    }
+
+    // Setter methods 
+    public setName(name : string): void {
+        this.name = name;
+    }
+
+    public setLevel(level : LEVEL): void {
+        this.level = level;
+    }
+    
 }
