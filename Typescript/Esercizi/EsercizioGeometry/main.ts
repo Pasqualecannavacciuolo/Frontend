@@ -1,25 +1,22 @@
-import { type } from './type';
-import { Square } from './Square';
-import { Rectangle } from './Rectangle';
-import { Triangle } from './Triangle';
-
+import { SimpleMath, Square, Rectangle, Triangle } from './SimpleMath';
+import { Geometry } from './Geometry';
 class main {
     
     square = new Square(2);
     rectangle = new Rectangle(2, 9);
     triangle = new Triangle(3, 3);
     
-    tp = new type();
+    sm = new SimpleMath();
 
     public printSquare():void {
-        console.log("Area quadrato: " + this.tp.squareArea(this.square));
+        console.log("Area quadrato: " + this.sm.calcoloArea(this.square, Geometry.QUADRATO));
     }
 
     public printRectangle():void {
-        console.log(this.tp.rectangleArea(this.rectangle));
+        console.log("Area rettangolo: " + this.sm.calcoloArea(this.rectangle, Geometry.RETTANGOLO));
     }
 
     public printTriangle():void {
-        console.log(this.tp.triangleArea(this.triangle));
+        console.log("Area triangolo: " + this.sm.calcoloArea(this.triangle, Geometry.TRIANGOLO));
     }
 }
